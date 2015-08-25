@@ -1,0 +1,4 @@
+<resources>
+    <item type="id" name="dialog_button_container"/>
+    <item type="id" name="dialog_body_container"/>
+</resources>

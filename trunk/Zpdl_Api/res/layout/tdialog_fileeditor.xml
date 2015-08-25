@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dip"
+    android:paddingTop="15dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="5dip"
+    >
+	<EditText
+	    android:id="@+id/tdialog_file_edit"
+	    android:labelFor="@id/tdialog_file_edit"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:textColor="#FFFFFFFF"
+	    android:textColorHint="#FF9C9C9C"
+	    android:privateImeOptions="inputType=filename;defaultInputmode=english"
+	    android:inputType="textNoSuggestions"
+	    />
+</FrameLayout>

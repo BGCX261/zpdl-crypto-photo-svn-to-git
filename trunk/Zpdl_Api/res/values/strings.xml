@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Success">Success</string>
+    <string name="Fail">Fail</string>
+
+    <string name="Press_the_back_key_again_to_exit">Press the back key again to exit</string>
+    <string name="Exit">Exit</string>
+    <string name="Do_you_want_exit">Do you want exit?</string>
+    
+    <string name="Copy">Copy</string>
+    <string name="Move">Move</string>
+    <string name="Delete">Delete</string>
+    <string name="New_folder">New folder</string>
+    <string name="Rename">Rename</string>
+    <string name="Here">Here</string>
+
+    <string name="Input_new_folder_name">Input new folder name</string>
+    <string name="Exist_folder">Exist folder</string>
+    <string name="Input_new_name">Input new name</string>
+</resources>

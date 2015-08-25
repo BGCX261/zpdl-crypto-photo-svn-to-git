@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="dialog_alert_min_height">30dip</dimen>
+    <dimen name="dialog_btn_height">50dip</dimen>
+</resources>

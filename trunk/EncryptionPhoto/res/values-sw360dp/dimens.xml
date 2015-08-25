@@ -1,0 +1,12 @@
+<resources>
+    <!--
+        Screen size = 360dp
+        column size * 4 + left margin + right margin = 352 + 3 + 3 = 358
+        column size - item size - left padding - right padding = 88 - 84 - 2 - 2 = 0
+    -->
+    <dimen name="gridtn_margin">3dp</dimen>
+    <dimen name="gridtn_column_size">88dp</dimen>
+    <dimen name="gridtn_item_size">84dp</dimen>
+    <dimen name="gridtn_item_padding">2dp</dimen>
+
+</resources>

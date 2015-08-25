@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:background="@drawable/tdialog_shape_folderbrowser_name_background">
+        <ImageButton
+            android:id="@+id/tdialog_folderbrowser_newfolder"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:padding="4dip"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/tdialog_newfolder_selector"
+            android:contentDescription="@null"
+            android:background="@android:color/transparent"/>
+        <TextView 
+            android:id="@+id/tdialog_folderbrowser_foldername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" 
+            android:layout_toStartOf="@id/tdialog_folderbrowser_newfolder"
+            android:layout_centerVertical="true"
+            android:drawableStart="@drawable/ic_tdialog_previous"
+            android:drawablePadding="3dip"
+            android:background="@drawable/tdialog_folderbrowser_name_selector"
+            android:textAppearance="@style/TextAppearance_tdialog_btn"
+            android:singleLine="true"
+            android:ellipsize="start"
+            />
+    </RelativeLayout>
+    
+    <com.zpdl.api.dialog.TdialogFolderListView
+        android:id="@+id/tdialog_folderbrowser_folderbrowser"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

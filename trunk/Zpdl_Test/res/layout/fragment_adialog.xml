@@ -1,0 +1,50 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dip"
+    android:orientation="vertical" >
+
+    <Button android:id="@+id/adialog_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="Alert Dialog"
+        />
+    
+    <Button android:id="@+id/adialog_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="Progress Dialog"
+        />
+
+    <Button android:id="@+id/adialog_edit_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="File Edit Dialog"
+        />
+    
+    <Button android:id="@+id/tdialog_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="Transparent Alert Dialog"
+        />
+
+    <Button android:id="@+id/tdialog_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="Transparent Preogress Dialog"
+        />
+    
+    <Button android:id="@+id/tdialog_folder_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="Transparent folder browser Dialog"
+        />
+    
+</LinearLayout>

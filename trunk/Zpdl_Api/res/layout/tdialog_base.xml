@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"    
+>
+	<com.zpdl.api.dialog.TdialogContainer 
+	    android:id="@+id/tdialog_conteainer"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dip"
+	    android:background="@drawable/tdialog_background"
+	/>    
+</FrameLayout>

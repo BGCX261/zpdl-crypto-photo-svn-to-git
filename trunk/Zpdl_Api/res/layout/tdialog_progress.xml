@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="15dip"
+    android:paddingTop="15dip"
+    android:paddingRight="15dip"
+    android:paddingBottom="10dip"
+    >
+    <TextView 
+        android:id="@+id/tdialog_progress_message"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="start"
+	    android:textAppearance="@style/TextAppearance_tdialog_medium"    
+    />
+
+    <ProgressBar 
+        android:id="@+id/tdialog_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        style="?android:attr/progressBarStyleHorizontal"
+        />
+
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dip">
+        <TextView 
+            android:id="@+id/tdialog_progress_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textAppearance="@style/TextAppearance_tdialog_small"
+            />
+        <TextView 
+            android:id="@+id/tdialog_progress_percent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textAppearance="@style/TextAppearance_tdialog_small"
+            />
+    </FrameLayout>
+</LinearLayout>
+

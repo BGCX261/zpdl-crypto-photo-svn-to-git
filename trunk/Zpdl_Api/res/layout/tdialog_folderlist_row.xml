@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/tdialog_folderlist_row_iv"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@null"
+        />
+	<TextView
+	    android:id="@+id/tdialog_folderlist_row_tv"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:paddingStart="5dip"
+	    android:paddingEnd="12dip"
+	    android:textAppearance="@style/TextAppearance_tdialog_medium"
+	    android:layout_toRightOf="@id/tdialog_folderlist_row_iv"
+	    android:layout_centerVertical="true"
+	    android:gravity="end"
+	    />
+</RelativeLayout>

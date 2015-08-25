@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/gridtn_column_size"
+    android:layout_height="@dimen/gridtn_column_size"
+    android:padding="@dimen/gridtn_item_padding"
+    android:background="@drawable/contextdialog_background" >
+
+	<ImageView
+	    android:id="@+id/gridtn_item_tn"
+	    android:layout_width="@dimen/gridtn_item_size"
+	    android:layout_height="@dimen/gridtn_item_size"
+	    android:contentDescription="@null"
+	    android:background="@android:color/holo_blue_bright"
+	    />
+
+</FrameLayout>

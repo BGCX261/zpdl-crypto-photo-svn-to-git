@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="TextAppearance_tdialog_title" parent="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle">
+        <item name="android:textColor">#FFEBEBEB</item>
+    </style>
+    <style name="TextAppearance_tdialog_btn" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">#FFEBEBEB</item>
+    </style>
+    <style name="TextAppearance_tdialog_large" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="TextAppearance_tdialog_medium" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="TextAppearance_tdialog_small" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+</resources>
